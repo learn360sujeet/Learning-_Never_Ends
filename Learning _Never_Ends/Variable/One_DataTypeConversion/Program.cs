@@ -27,13 +27,13 @@ class Program
         //Console.WriteLine(c);
 
 
-        Console.WriteLine("Enter the number of your choice ");
-        int usernumber=int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter the name of your choice ");
-        string name = Console.ReadLine();
+        //Console.WriteLine("Enter the number of your choice ");
+        //int usernumber=int.Parse(Console.ReadLine());
+        //Console.WriteLine("Enter the name of your choice ");
+        //string name = Console.ReadLine();
 
         
-        Console.WriteLine("The number is {0}: and the name is{1} ",usernumber,name ); 
+        //Console.WriteLine("The number is {0}: and the name is{1} ",usernumber,name ); 
     }
 
 }

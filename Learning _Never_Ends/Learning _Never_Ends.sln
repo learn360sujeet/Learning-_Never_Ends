@@ -5,21 +5,25 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction_Csharp", "Introduction_Csharp", "{E30168AA-EF83-43A6-9988-AF6E90D02A8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introduction _CSharp\Introduction\Introduction.csproj", "{D1CE0E75-AFAC-4F22-9933-D15BE3E6535F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction", "Introduction _CSharp\Introduction\Introduction.csproj", "{D1CE0E75-AFAC-4F22-9933-D15BE3E6535F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Getting _User_Input", "Getting _User_Input", "{773938E5-E6B9-403F-98C8-AEBB4AE917A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_UserInput", "User_Input\One_UserInput\One_UserInput.csproj", "{D479C012-2902-4B62-8017-0F0651D8B984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "One_UserInput", "User_Input\One_UserInput\One_UserInput.csproj", "{D479C012-2902-4B62-8017-0F0651D8B984}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Built_In_DataTypes", "Built_In_DataTypes", "{D54DABFF-14B6-4851-A850-62BBCA35F21E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_Built_InTypes", "Built_In_Types\One_Built_InTypes\One_Built_InTypes.csproj", "{8021FCF8-C95B-4A73-B6A5-5E8B14789C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "One_Built_InTypes", "Built_In_Types\One_Built_InTypes\One_Built_InTypes.csproj", "{8021FCF8-C95B-4A73-B6A5-5E8B14789C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two_Built_In_Types", "Built_In_Types\Two_Built_In_Types\Two_Built_In_Types.csproj", "{99F25A18-6961-43A4-9D6A-BD319DB535F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two_Built_In_Types", "Built_In_Types\Two_Built_In_Types\Two_Built_In_Types.csproj", "{99F25A18-6961-43A4-9D6A-BD319DB535F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variable", "Variable", "{F391174D-7ABC-4730-803A-CE0DC698B042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_DataTypeConversion", "Variable\One_DataTypeConversion\One_DataTypeConversion.csproj", "{5FB4FE13-B451-483B-9E42-A56859F5B26C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "One_DataTypeConversion", "Variable\One_DataTypeConversion\One_DataTypeConversion.csproj", "{5FB4FE13-B451-483B-9E42-A56859F5B26C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two_Constant Variable", "Variable\Two_Constant Variable\Two_Constant Variable.csproj", "{30CAC6B5-BE86-4A84-BFA1-725604911202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Three_Date_TimeFormats", "Variable\Three_Date_TimeFormats\Three_Date_TimeFormats.csproj", "{4E393BDF-80B2-4F91-8BA1-3F9318EAA633}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{5FB4FE13-B451-483B-9E42-A56859F5B26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FB4FE13-B451-483B-9E42-A56859F5B26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB4FE13-B451-483B-9E42-A56859F5B26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30CAC6B5-BE86-4A84-BFA1-725604911202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CAC6B5-BE86-4A84-BFA1-725604911202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CAC6B5-BE86-4A84-BFA1-725604911202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CAC6B5-BE86-4A84-BFA1-725604911202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E393BDF-80B2-4F91-8BA1-3F9318EAA633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E393BDF-80B2-4F91-8BA1-3F9318EAA633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E393BDF-80B2-4F91-8BA1-3F9318EAA633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E393BDF-80B2-4F91-8BA1-3F9318EAA633}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +69,8 @@ Global
 		{8021FCF8-C95B-4A73-B6A5-5E8B14789C5A} = {D54DABFF-14B6-4851-A850-62BBCA35F21E}
 		{99F25A18-6961-43A4-9D6A-BD319DB535F7} = {D54DABFF-14B6-4851-A850-62BBCA35F21E}
 		{5FB4FE13-B451-483B-9E42-A56859F5B26C} = {F391174D-7ABC-4730-803A-CE0DC698B042}
+		{30CAC6B5-BE86-4A84-BFA1-725604911202} = {F391174D-7ABC-4730-803A-CE0DC698B042}
+		{4E393BDF-80B2-4F91-8BA1-3F9318EAA633} = {F391174D-7ABC-4730-803A-CE0DC698B042}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC36CA2D-EC45-4CE8-A812-6050C7395CB9}
