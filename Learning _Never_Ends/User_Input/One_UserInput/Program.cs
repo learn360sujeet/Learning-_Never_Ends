@@ -18,7 +18,7 @@
         //Console.WriteLine(" knows :{0} {1}",named,bythe);
 
         Console.WriteLine("Enter the first number:");
-        int fNumber =int.Parse(Console.ReadLine());
+        int fNumber =int.Parse(Console.ReadLine());//Parse takes string value 
 
         Console.WriteLine("Enter the Second number");
         int sNumber= Convert.ToInt32(Console.ReadLine());
