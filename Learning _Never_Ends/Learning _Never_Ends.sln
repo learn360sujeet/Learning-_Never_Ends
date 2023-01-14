@@ -41,6 +41,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception_ExceptionHandling
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_Try_Catch", "Exception_ExceptionHandling\One_\One_Try_Catch.csproj", "{3E2CCA19-6D06-49B5-9CD0-57F9D0742838}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two_HandlingIndexOutOfRange", "Exception_ExceptionHandling\Two_HandlingIndexOutOfRange\Two_HandlingIndexOutOfRange.csproj", "{E97206D3-B492-4AA8-B6EE-B0F33304E3FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{3E2CCA19-6D06-49B5-9CD0-57F9D0742838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2CCA19-6D06-49B5-9CD0-57F9D0742838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2CCA19-6D06-49B5-9CD0-57F9D0742838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97206D3-B492-4AA8-B6EE-B0F33304E3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97206D3-B492-4AA8-B6EE-B0F33304E3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97206D3-B492-4AA8-B6EE-B0F33304E3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97206D3-B492-4AA8-B6EE-B0F33304E3FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +118,7 @@ Global
 		{AB8700B0-27B5-4D16-B591-99FF1E0BB776} = {E0FF7179-CE7B-40FC-9F46-8F65A61823AE}
 		{B7E59F5D-743E-4EC9-B27D-242F02DDF59D} = {4632BFE4-9E15-43E3-B781-384B31D5D981}
 		{3E2CCA19-6D06-49B5-9CD0-57F9D0742838} = {FEDA4CCB-B170-4D6F-AAC2-CDEA847E5259}
+		{E97206D3-B492-4AA8-B6EE-B0F33304E3FE} = {FEDA4CCB-B170-4D6F-AAC2-CDEA847E5259}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC36CA2D-EC45-4CE8-A812-6050C7395CB9}
