@@ -10,11 +10,12 @@
             int result = f01 / s02;
             Console.WriteLine("Division is done :{0}", result);
     }
-  catch 
+    catch 
     {
        Console.WriteLine("Your Entered number is Completely Invalid :");
     }
-    
+Console.WriteLine("OK");
+Console.WriteLine("Bhola");
 
     
 
