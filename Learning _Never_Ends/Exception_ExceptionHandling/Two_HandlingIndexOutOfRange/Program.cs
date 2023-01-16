@@ -16,7 +16,7 @@ try
 }
 catch(Exception ex)
 {
-    Console.WriteLine("Yoyr array limit is exceeded");
+    Console.WriteLine("Your array limit is exceeded");
     Console.WriteLine(ex.Message);
 }
 
