@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 
 class Constructor
-{
+{//
     string personName;
     int age;
     bool male;
@@ -33,6 +33,6 @@ class Constructor
         Console.WriteLine("your age is "+ constructor.GetAge()) ;
         Console.WriteLine( "are you male"+constructor.GetMale()); 
     }
-
+    
     
 }

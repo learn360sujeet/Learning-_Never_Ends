@@ -61,9 +61,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructor", "Constructor"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Access Specifiers", "Access Specifiers", "{8235E840-B89F-4152-A358-8AB91C5034C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_Constructor_Default", "Constructor\One_Constructor_Simple\One_Constructor_Default.csproj", "{5BAA94D8-998B-43FF-B0AC-CDEC45FDA793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "One_Constructor_Default", "Constructor\One_Constructor_Simple\One_Constructor_Default.csproj", "{5BAA94D8-998B-43FF-B0AC-CDEC45FDA793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two_Constructor_Parametrised", "Constructor\Two_Constructor_Parametrised\Two_Constructor_Parametrised.csproj", "{1476B2AC-E241-4A34-90F8-06D3B9581B18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Two_Constructor_Parametrised", "Constructor\Two_Constructor_Parametrised\Two_Constructor_Parametrised.csproj", "{1476B2AC-E241-4A34-90F8-06D3B9581B18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Three_ConstructorOverloading", "Constructor\Three_ConstructorOverloading\Three_ConstructorOverloading.csproj", "{606C8334-92C0-4381-8107-2E8A7EE1F480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Four_Constructor_Static _Instance Member", "Constructor\Four_Constructor_Static _Instance Member\Four_Constructor_Static _Instance Member.csproj", "{B1FAB01D-2A44-443A-BF77-B12638797BB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +159,14 @@ Global
 		{1476B2AC-E241-4A34-90F8-06D3B9581B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1476B2AC-E241-4A34-90F8-06D3B9581B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1476B2AC-E241-4A34-90F8-06D3B9581B18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606C8334-92C0-4381-8107-2E8A7EE1F480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606C8334-92C0-4381-8107-2E8A7EE1F480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606C8334-92C0-4381-8107-2E8A7EE1F480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606C8334-92C0-4381-8107-2E8A7EE1F480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FAB01D-2A44-443A-BF77-B12638797BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FAB01D-2A44-443A-BF77-B12638797BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FAB01D-2A44-443A-BF77-B12638797BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FAB01D-2A44-443A-BF77-B12638797BB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +193,8 @@ Global
 		{BCE33691-6C1A-46CC-A99D-062880E5ED40} = {18C7675E-D0FA-49B9-876C-74D055B8A6A5}
 		{5BAA94D8-998B-43FF-B0AC-CDEC45FDA793} = {BE8087F6-07F6-499D-86D6-27705CB46614}
 		{1476B2AC-E241-4A34-90F8-06D3B9581B18} = {BE8087F6-07F6-499D-86D6-27705CB46614}
+		{606C8334-92C0-4381-8107-2E8A7EE1F480} = {BE8087F6-07F6-499D-86D6-27705CB46614}
+		{B1FAB01D-2A44-443A-BF77-B12638797BB3} = {BE8087F6-07F6-499D-86D6-27705CB46614}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC36CA2D-EC45-4CE8-A812-6050C7395CB9}
